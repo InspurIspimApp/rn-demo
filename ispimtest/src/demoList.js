@@ -107,12 +107,12 @@ export default [
     icon: 'https://os.alipayobjects.com/rmsportal/HzRRcuwtqUCCOBg.png',
     module: require('./components/modal/modal'),
   },
-  // {
-  //   title: 'Carousel',
-  //   description: '走马灯',
-  //   icon: 'https://os.alipayobjects.com/rmsportal/FbIGJuDaiQoKNvj.png',
-  //   module: require('./components/carousel/carousel'),
-  // },
+  {
+    title: 'Carousel',
+    description: '走马灯',
+    icon: 'https://os.alipayobjects.com/rmsportal/FbIGJuDaiQoKNvj.png',
+    module: require('./components/carousel/carousel'),
+  },
   {
     title: 'SearchBar',
     description: '搜索栏',
@@ -178,6 +178,12 @@ export default [
     description: '图片选择',
     icon: 'https://os.alipayobjects.com/rmsportal/NDsSvklLUeodsHK.png',
     module: require('./components/imagepicker/imagepicker'),
+  },
+  {
+    title: 'Charts',
+    description: '图表',
+    icon: 'https://os.alipayobjects.com/rmsportal/NDsSvklLUeodsHK.png',
+    module: require('./components/Charts/Charts'),
   },
   // {
   //   title: 'Camera',
